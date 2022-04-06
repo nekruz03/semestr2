@@ -1,0 +1,13 @@
+info
+add
+1000
+Ingvar
+10
+10
+true
+false
+1000
+AXE
+GLOOM
+Lada
+show
