@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab5</OriginalElement>
+  <nodes>
+    <node x="2034.6785714285718" y="1453.0">lab5.Commands.Clear</node>
+    <node x="3405.6785714285716" y="1453.0">lab5.Commands.Help</node>
+    <node x="3862.6785714285716" y="1453.0">lab5.Commands.RemoveById</node>
+    <node x="20.30357142857156" y="776.0">lab5.InputHandler</node>
+    <node x="206.67857142857156" y="1453.0">lab5.Commands.Add</node>
+    <node x="2948.6785714285716" y="1453.0">lab5.Commands.RemoveFirst</node>
+    <node x="6625.625939849624" y="1453.0">lab5.Commands.Update</node>
+    <node x="3977.178571428572" y="1075.0">lab5.Commands.AbstractCommand</node>
+    <node x="663.6785714285716" y="1453.0">lab5.Commands.Info</node>
+    <node x="5254.625939849624" y="1453.0">lab5.Commands.RemoveGreater</node>
+    <node x="4340.625939849624" y="1453.0">lab5.Commands.RemoveAnyByLoyal</node>
+    <node x="6168.625939849624" y="1453.0">lab5.Commands.PrintUniqueHealth</node>
+    <node x="0.0" y="0.0">lab5.Collections.Coordinates</node>
+    <node x="3015.5119047619055" y="249.0">lab5.Collections.SpaceMarine</node>
+    <node x="4797.625939849624" y="1453.0">lab5.Commands.Show</node>
+    <node x="1120.6785714285716" y="1453.0">lab5.Commands.Save</node>
+    <node x="5711.625939849624" y="1453.0">lab5.Commands.MaxByHealth</node>
+    <node x="3840.1647759170664" y="1789.0">lab5.Commands.CommandsManager</node>
+    <node x="2491.6785714285716" y="1453.0">lab5.Commands.AddIfMin</node>
+    <node x="7082.625939849624" y="1432.0">lab5.Commands.ExecuteScript</node>
+    <node x="709.4796372750066" y="0.0">lab5.Collections.Chapter</node>
+    <node x="1577.6785714285718" y="1453.0">lab5.Commands.Exit</node>
+    <node x="3305.7619047619055" y="20.0">lab5.Collections.MeleeWeapon</node>
+    <node x="302.92857142857156" y="1075.0">lab5.Lab5</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab5.Commands.RemoveById" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666652" y="-47.5" />
+      <point x="3935.5119047619055" y="1242.0" />
+      <point x="3966.678571428572" y="1242.0" />
+      <point x="3966.678571428572" y="746.0" />
+      <point x="3281.9891774891785" y="746.0" />
+      <point x="31.977272727272975" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveGreater" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="5582.375939849624" y="1679.0" />
+      <point x="4124.414775917066" y="1679.0" />
+      <point x="94.75" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.AbstractCommand" target="lab5.Commands.CommandsManager">
+      <point x="24.971428571428532" y="58.5" />
+      <point x="4220.650000000001" y="1392.0" />
+      <point x="4320.152255639098" y="1392.0" />
+      <point x="4320.152255639098" y="1609.0" />
+      <point x="4054.5989864433823" y="1609.0" />
+      <point x="24.934210526315837" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Save" target="lab5.InputHandler">
+      <point x="-163.875" y="-47.5" />
+      <point x="1175.3035714285716" y="1242.0" />
+      <point x="1224.4285714285718" y="1242.0" />
+      <point x="1224.4285714285718" y="1045.0" />
+      <point x="347.55357142857156" y="1045.0" />
+      <point x="140.25" y="124.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveAnyByLoyal" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="4559.125939849624" y="1362.0" />
+      <point x="4258.107142857143" y="1362.0" />
+      <point x="62.42857142857156" y="58.5" />
+    </edge>
+    <edge source="lab5.InputHandler" target="lab5.Commands.CommandsManager">
+      <point x="-140.25" y="124.5" />
+      <point x="67.05357142857156" y="1055.0" />
+      <point x="117.50422932330821" y="1055.0" />
+      <point x="117.50422932330821" y="1769.0" />
+      <point x="3845.15161802233" y="1769.0" />
+      <point x="-184.51315789473665" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Exit">
+      <point x="-104.72368421052624" y="-177.5" />
+      <point x="3924.94109170654" y="1689.0" />
+      <point x="1686.9285714285718" y="1689.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Update" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="6844.125939849624" y="1252.0" />
+      <point x="4382.964285714286" y="1252.0" />
+      <point x="187.28571428571422" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Update" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="6953.375939849624" y="1739.0" />
+      <point x="4184.256881180225" y="1739.0" />
+      <point x="154.59210526315792" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.MaxByHealth">
+      <point x="104.72368421052624" y="-177.5" />
+      <point x="4134.388460127593" y="1689.0" />
+      <point x="5820.875939849624" y="1689.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Info" target="lab5.Lab5">
+      <point x="-163.875" y="-47.5" />
+      <point x="718.3035714285716" y="1232.0" />
+      <point x="505.42857142857156" y="1232.0" />
+      <point x="67.5" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.AddIfMin" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666697" y="-47.5" />
+      <point x="2564.5119047619046" y="746.0" />
+      <point x="3218.0346320346325" y="746.0" />
+      <point x="-31.97727272727252" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.MaxByHealth" target="lab5.Commands.AbstractCommand">
+      <point x="-145.66666666666697" y="-47.5" />
+      <point x="5784.459273182957" y="1312.0" />
+      <point x="4320.535714285715" y="1312.0" />
+      <point x="124.85714285714266" y="58.5" />
+    </edge>
+    <edge source="lab5.Lab5" target="lab5.Commands.CommandsManager">
+      <point x="-67.5" y="58.5" />
+      <point x="370.42857142857156" y="1232.0" />
+      <point x="176.86607142857156" y="1232.0" />
+      <point x="176.86607142857156" y="1759.0" />
+      <point x="3855.1253022328565" y="1759.0" />
+      <point x="-174.53947368420995" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.AddIfMin" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="2819.4285714285716" y="1639.0" />
+      <point x="3974.809512759172" y="1639.0" />
+      <point x="-54.85526315789457" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.ExecuteScript" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-68.5" />
+      <point x="7301.125939849624" y="1222.0" />
+      <point x="4407.935714285715" y="1222.0" />
+      <point x="212.25714285714275" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Clear" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="2362.4285714285716" y="1659.0" />
+      <point x="3954.8621443381194" y="1659.0" />
+      <point x="-74.80263157894706" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveById" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="4190.428571428572" y="1589.0" />
+      <point x="4034.65161802233" y="1589.0" />
+      <point x="4.986842105263349" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Exit" target="lab5.Commands.AbstractCommand">
+      <point x="145.66666666666674" y="-47.5" />
+      <point x="1941.8452380952385" y="1322.0" />
+      <point x="4070.8214285714294" y="1322.0" />
+      <point x="-124.85714285714266" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.RemoveAnyByLoyal">
+      <point x="44.881578947368325" y="-177.5" />
+      <point x="4074.5463548644348" y="1629.0" />
+      <point x="4449.875939849624" y="1629.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveGreater" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666697" y="-47.5" />
+      <point x="5618.792606516291" y="706.0" />
+      <point x="3367.2619047619055" y="706.0" />
+      <point x="117.25" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveAnyByLoyal" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666674" y="-47.5" />
+      <point x="4704.792606516291" y="726.0" />
+      <point x="3324.6255411255415" y="726.0" />
+      <point x="74.61363636363649" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.Clear" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666697" y="-47.5" />
+      <point x="2107.5119047619046" y="1242.0" />
+      <point x="2298.499388357258" y="1242.0" />
+      <point x="2298.499388357258" y="736.0" />
+      <point x="3196.7164502164505" y="736.0" />
+      <point x="-53.295454545454504" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Save">
+      <point x="-124.67105263157873" y="-177.5" />
+      <point x="3904.9937232854877" y="1709.0" />
+      <point x="1229.9285714285716" y="1709.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Show">
+      <point x="64.82894736842081" y="-177.5" />
+      <point x="4094.4937232854872" y="1649.0" />
+      <point x="4906.875939849624" y="1649.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Show" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666652" y="-47.5" />
+      <point x="5161.792606516291" y="716.0" />
+      <point x="3345.9437229437235" y="716.0" />
+      <point x="95.93181818181802" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.PrintUniqueHealth" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="6387.125939849624" y="1282.0" />
+      <point x="4357.992857142857" y="1282.0" />
+      <point x="162.3142857142857" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Exit" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="1905.4285714285718" y="1679.0" />
+      <point x="3934.9147759170664" y="1679.0" />
+      <point x="-94.75" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Save" target="lab5.Collections.SpaceMarine">
+      <point x="-54.625" y="-47.5" />
+      <point x="1284.5535714285716" y="1242.0" />
+      <point x="1235.4285714285718" y="1242.0" />
+      <point x="1235.4285714285718" y="716.0" />
+      <point x="3154.0800865800875" y="716.0" />
+      <point x="-95.93181818181802" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveById" target="lab5.Commands.AbstractCommand">
+      <point x="145.66666666666697" y="-47.5" />
+      <point x="4226.8452380952385" y="1412.0" />
+      <point x="4195.6785714285725" y="1412.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="lab5.InputHandler" target="lab5.Collections.MeleeWeapon">
+      <point x="53.42857142857156" y="-124.5" />
+      <point x="260.7321428571431" y="646.0" />
+      <point x="849.3546372750066" y="646.0" />
+      <point x="849.3546372750066" y="229.0" />
+      <point x="3326.2619047619055" y="229.0" />
+      <point x="-41.0" y="59.5" />
+    </edge>
+    <edge source="lab5.InputHandler" target="lab5.Collections.Chapter">
+      <point x="0.0" y="-124.5" />
+      <point x="207.30357142857156" y="756.0" />
+      <point x="246.25" y="756.0" />
+      <point x="246.25" y="229.0" />
+      <point x="771.7296372750066" y="229.0" />
+      <point x="-20.75" y="79.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.PrintUniqueHealth">
+      <point x="124.67105263157873" y="-177.5" />
+      <point x="4154.335828548645" y="1709.0" />
+      <point x="6277.875939849624" y="1709.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.AbstractCommand">
+      <point x="34.90789473684208" y="-177.5" />
+      <point x="4064.5726706539085" y="1619.0" />
+      <point x="4330.125939849624" y="1619.0" />
+      <point x="4330.125939849624" y="1382.0" />
+      <point x="4233.135714285715" y="1382.0" />
+      <point x="37.457142857143026" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.MaxByHealth" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666697" y="-47.5" />
+      <point x="6075.792606516291" y="696.0" />
+      <point x="3388.5800865800875" y="696.0" />
+      <point x="138.56818181818198" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.ExecuteScript">
+      <point x="164.56578947368416" y="-177.5" />
+      <point x="4194.230565390751" y="1749.0" />
+      <point x="7191.875939849624" y="1749.0" />
+      <point x="-109.25" y="68.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Clear">
+      <point x="-84.7763157894733" y="-177.5" />
+      <point x="3944.888460127593" y="1669.0" />
+      <point x="2143.9285714285716" y="1669.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveFirst" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666652" y="-47.5" />
+      <point x="3021.511904761905" y="756.0" />
+      <point x="3239.3528138528145" y="756.0" />
+      <point x="-10.659090909090992" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.RemoveById">
+      <point x="-4.986842105262895" y="-177.5" />
+      <point x="4024.6779338118035" y="1589.0" />
+      <point x="3971.9285714285716" y="1589.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.ExecuteScript" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="68.5" />
+      <point x="7410.375939849624" y="1759.0" />
+      <point x="4204.204249601276" y="1759.0" />
+      <point x="174.5394736842104" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Help" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="3624.1785714285716" y="1392.0" />
+      <point x="4158.221428571429" y="1392.0" />
+      <point x="-37.457142857143026" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Add" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="534.4285714285716" y="1739.0" />
+      <point x="3875.072670653909" y="1739.0" />
+      <point x="-154.59210526315746" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Clear" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="2253.1785714285716" y="1332.0" />
+      <point x="4083.3071428571434" y="1332.0" />
+      <point x="-112.37142857142862" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Save" target="lab5.Commands.AbstractCommand">
+      <point x="163.875" y="-47.5" />
+      <point x="1503.0535714285716" y="1302.0" />
+      <point x="4045.8500000000004" y="1302.0" />
+      <point x="-149.82857142857165" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Show" target="lab5.Commands.AbstractCommand">
+      <point x="-145.66666666666652" y="-47.5" />
+      <point x="4870.459273182958" y="1352.0" />
+      <point x="4270.592857142858" y="1352.0" />
+      <point x="74.9142857142856" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Help" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666652" y="-47.5" />
+      <point x="3478.5119047619055" y="756.0" />
+      <point x="3260.6709956709965" y="756.0" />
+      <point x="10.659090909090992" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Update">
+      <point x="144.61842105263167" y="-177.5" />
+      <point x="4174.283196969698" y="1729.0" />
+      <point x="6734.875939849624" y="1729.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Add">
+      <point x="-164.5657894736837" y="-177.5" />
+      <point x="3865.0989864433827" y="1749.0" />
+      <point x="315.92857142857156" y="1749.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.InputHandler" target="lab5.Collections.Coordinates">
+      <point x="-160.28571428571468" y="-124.5" />
+      <point x="47.01785714285688" y="756.0" />
+      <point x="50.5" y="756.0" />
+      <point x="50.5" y="229.0" />
+      <point x="20.5" y="229.0" />
+      <point x="-61.5" y="79.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Collections.SpaceMarine">
+      <point x="184.51315789473665" y="-177.5" />
+      <point x="4214.177933811803" y="1769.0" />
+      <point x="7530.125939849625" y="1769.0" />
+      <point x="7530.125939849625" y="656.0" />
+      <point x="3473.8528138528145" y="656.0" />
+      <point x="223.840909090909" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.PrintUniqueHealth" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666652" y="-47.5" />
+      <point x="6532.79260651629" y="1272.0" />
+      <point x="6371.9788274094335" y="1272.0" />
+      <point x="6371.9788274094335" y="686.0" />
+      <point x="3409.8982683982686" y="686.0" />
+      <point x="159.8863636363635" y="188.5" />
+    </edge>
+    <edge source="lab5.Collections.SpaceMarine" target="lab5.Collections.Coordinates">
+      <point x="-117.25" y="-188.5" />
+      <point x="3132.7619047619055" y="199.0" />
+      <point x="143.5" y="199.0" />
+      <point x="61.5" y="79.5" />
+    </edge>
+    <edge source="lab5.Commands.PrintUniqueHealth" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="6496.375939849624" y="1719.0" />
+      <point x="4164.309512759171" y="1719.0" />
+      <point x="134.64473684210543" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveFirst" target="lab5.Commands.AbstractCommand">
+      <point x="0.0" y="-47.5" />
+      <point x="3167.1785714285716" y="1372.0" />
+      <point x="4133.25" y="1372.0" />
+      <point x="-62.42857142857156" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.AddIfMin">
+      <point x="-64.82894736842081" y="-177.5" />
+      <point x="3964.8358285486456" y="1649.0" />
+      <point x="2600.9285714285716" y="1649.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Help" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="3733.4285714285716" y="1599.0" />
+      <point x="4014.7042496012773" y="1599.0" />
+      <point x="-14.960526315789139" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.Info" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="991.4285714285716" y="1719.0" />
+      <point x="3895.0200390749615" y="1719.0" />
+      <point x="-134.64473684210498" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.RemoveFirst">
+      <point x="-44.881578947368325" y="-177.5" />
+      <point x="3984.783196969698" y="1629.0" />
+      <point x="3057.9285714285716" y="1629.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.RemoveGreater">
+      <point x="84.77631578947376" y="-177.5" />
+      <point x="4114.44109170654" y="1669.0" />
+      <point x="5363.875939849624" y="1669.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Exit" target="lab5.Collections.SpaceMarine">
+      <point x="-145.66666666666652" y="-47.5" />
+      <point x="1650.5119047619053" y="1242.0" />
+      <point x="2064.499388357258" y="1242.0" />
+      <point x="2064.499388357258" y="726.0" />
+      <point x="3175.3982683982686" y="726.0" />
+      <point x="-74.61363636363649" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.Add" target="lab5.InputHandler">
+      <point x="-163.875" y="-47.5" />
+      <point x="261.30357142857156" y="1222.0" />
+      <point x="160.55357142857156" y="1222.0" />
+      <point x="-46.75" y="124.5" />
+    </edge>
+    <edge source="lab5.Commands.Save" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="1448.4285714285716" y="1699.0" />
+      <point x="3914.967407496014" y="1699.0" />
+      <point x="-114.69736842105249" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveGreater" target="lab5.Commands.AbstractCommand">
+      <point x="-145.66666666666697" y="-47.5" />
+      <point x="5327.459273182957" y="1332.0" />
+      <point x="4295.564285714287" y="1332.0" />
+      <point x="99.88571428571413" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Info" target="lab5.Collections.SpaceMarine">
+      <point x="-54.625" y="-47.5" />
+      <point x="827.5535714285716" y="1242.0" />
+      <point x="817.4285714285716" y="1242.0" />
+      <point x="817.4285714285716" y="706.0" />
+      <point x="3132.7619047619055" y="706.0" />
+      <point x="-117.25" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.Show" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="5125.375939849624" y="1659.0" />
+      <point x="4104.467407496014" y="1659.0" />
+      <point x="74.80263157894751" y="-177.5" />
+    </edge>
+    <edge source="lab5.Lab5" target="lab5.Collections.SpaceMarine">
+      <point x="90.0" y="-58.5" />
+      <point x="527.9285714285716" y="1055.0" />
+      <point x="488.42857142857156" y="1055.0" />
+      <point x="488.42857142857156" y="686.0" />
+      <point x="3090.1255411255415" y="686.0" />
+      <point x="-159.8863636363635" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveAnyByLoyal" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="4668.375939849624" y="1639.0" />
+      <point x="4084.520039074961" y="1639.0" />
+      <point x="54.85526315789457" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Help">
+      <point x="-24.934210526315837" y="-177.5" />
+      <point x="4004.7305653907506" y="1609.0" />
+      <point x="3514.9285714285716" y="1609.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Commands.Add" target="lab5.Commands.AbstractCommand">
+      <point x="163.875" y="-47.5" />
+      <point x="589.0535714285716" y="1262.0" />
+      <point x="3995.9071428571433" y="1262.0" />
+      <point x="-199.77142857142871" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.Update" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666697" y="-47.5" />
+      <point x="6989.792606516291" y="1242.0" />
+      <point x="6605.9788274094335" y="1242.0" />
+      <point x="6605.9788274094335" y="676.0" />
+      <point x="3431.2164502164505" y="676.0" />
+      <point x="181.2045454545455" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.MaxByHealth" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="6039.375939849624" y="1699.0" />
+      <point x="4144.362144338119" y="1699.0" />
+      <point x="114.69736842105249" y="-177.5" />
+    </edge>
+    <edge source="lab5.Collections.SpaceMarine" target="lab5.Collections.MeleeWeapon">
+      <point x="117.25" y="-188.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="lab5.Collections.SpaceMarine" target="lab5.Collections.Chapter">
+      <point x="-39.083333333333485" y="-188.5" />
+      <point x="3210.9285714285716" y="189.0" />
+      <point x="813.2296372750066" y="189.0" />
+      <point x="20.75" y="79.5" />
+    </edge>
+    <edge source="lab5.Commands.ExecuteScript" target="lab5.Collections.SpaceMarine">
+      <point x="145.66666666666697" y="-68.5" />
+      <point x="7446.792606516291" y="1212.0" />
+      <point x="6839.9788274094335" y="1212.0" />
+      <point x="6839.9788274094335" y="666.0" />
+      <point x="3452.5346320346325" y="666.0" />
+      <point x="202.52272727272702" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.AddIfMin" target="lab5.Commands.AbstractCommand">
+      <point x="145.66666666666697" y="-47.5" />
+      <point x="2855.8452380952385" y="1362.0" />
+      <point x="4120.764285714286" y="1362.0" />
+      <point x="-74.9142857142856" y="58.5" />
+    </edge>
+    <edge source="lab5.InputHandler" target="lab5.Collections.SpaceMarine">
+      <point x="106.85714285714312" y="-124.5" />
+      <point x="314.1607142857147" y="656.0" />
+      <point x="3026.1709956709965" y="656.0" />
+      <point x="-223.840909090909" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.RemoveFirst" target="lab5.Commands.CommandsManager">
+      <point x="109.25" y="47.5" />
+      <point x="3276.4285714285716" y="1619.0" />
+      <point x="3994.7568811802244" y="1619.0" />
+      <point x="-34.90789473684208" y="-177.5" />
+    </edge>
+    <edge source="lab5.Commands.AbstractCommand" target="lab5.Collections.SpaceMarine">
+      <point x="0.0" y="-58.5" />
+      <point x="4195.6785714285725" y="736.0" />
+      <point x="3303.3073593073595" y="736.0" />
+      <point x="53.295454545454504" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.Add" target="lab5.Collections.SpaceMarine">
+      <point x="-54.625" y="-47.5" />
+      <point x="370.55357142857156" y="1242.0" />
+      <point x="583.4285714285716" y="1242.0" />
+      <point x="583.4285714285716" y="696.0" />
+      <point x="3111.4437229437235" y="696.0" />
+      <point x="-138.56818181818198" y="188.5" />
+    </edge>
+    <edge source="lab5.Commands.Info" target="lab5.Commands.AbstractCommand">
+      <point x="54.625" y="-47.5" />
+      <point x="936.8035714285716" y="1272.0" />
+      <point x="4008.392857142858" y="1272.0" />
+      <point x="-187.28571428571422" y="58.5" />
+    </edge>
+    <edge source="lab5.Commands.CommandsManager" target="lab5.Commands.Info">
+      <point x="-144.61842105263122" y="-177.5" />
+      <point x="3885.046354864435" y="1729.0" />
+      <point x="772.9285714285716" y="1729.0" />
+      <point x="-109.25" y="47.5" />
+    </edge>
+    <edge source="lab5.Lab5" target="lab5.InputHandler">
+      <point x="-90.0" y="-58.5" />
+      <point x="347.92857142857156" y="1055.0" />
+      <point x="254.05357142857156" y="1055.0" />
+      <point x="46.75" y="124.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.08509017018034036" x="3927.0" y="1062.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
